@@ -1,0 +1,38 @@
+Health Insurance Claim Form
+This document is used by patients or healthcare providers to submit reimbursement claims to health insurance companies for treatments, medications, or services rendered. Please provide accurate and complete information to facilitate timely and correct processing of your claim.
+Patient Information
+Full Name: {fullName}
+Date of Birth: {dateOfBirth}
+Phone Number: {phoneNumber}
+Email Address: {email}
+Address: {address}
+Insurance Details
+Insurance Company: {insuranceCompany}
+Policy Number: {policyNumber}
+Group Number: {groupNumber}
+Insured Person Name (if different from patient): {insuredName}
+Relationship to Insured: {relationshipToInsured}
+Provider Details
+Provider Name: {providerName}
+Facility Name: {facilityName}
+Provider NPI/ID: {providerId}
+Contact Number: {providerPhone}
+Address: {providerAddress}
+Claim Details
+Total Summary
+Total Charges: {totalCharges}
+Total Paid by Patient: {totalPaidByPatient}
+Total Amount Requested: {totalRequestedAmount}
+Supporting Documents Attached
+{#documentsAttached}
+{documentName}
+{/documentsAttached}
+Additional Information
+{additionalInformation}
+Declaration
+I certify that the above information is correct and that the services listed were medically necessary and provided as described.
+Signature of Patient or Representative: _____________________________
+Date: {submissionDate}
+Office Use Only (Optional)
+{#includeOfficeUse}
+{/includeOfficeUse}
